@@ -78,7 +78,7 @@ a template is returned
 you click on customers
 	Wait Until Element Is Visible 			css=.customers-button
 	Click Element 							css=.customers-button
-	Go To 									${HOMEURL}/customers
+	# Go To 									${HOMEURL}/customers
 
 you are taken to the customer page
 	Wait Until Element Is Visible 			css=.hero-customer
