@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     Squarespace homepage tests
+Documentation     Squarespace Customers test
 ...
 Resource          ../resources/resource.robot
 Resource 		  ../resources/HomepageResources.robot
@@ -13,16 +13,7 @@ Force Tags 	      bvt
 
 *** Test Cases ***
 
-Log in test
-	[Tags]  login
+Navigate to Customers page
 	Given you go to homepage
-	When you log into an account
-	Then you are successfully logged in
-
-Navigate to Web Design via Tour menu
-	Given you go to homepage
-	When you hover over tour and click on Websites
-	Then you are taken to the websites page
-
-
-
+	When you click on customers
+	Then you are taken to the customer page

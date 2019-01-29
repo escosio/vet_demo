@@ -1,0 +1,16 @@
+==============================================================================
+Features                                                                      
+==============================================================================
+Features.Customers :: Squarespace Customers test                              
+==============================================================================
+Navigate to Customers page                                            | PASS |
+------------------------------------------------------------------------------
+Features.Customers :: Squarespace Customers test                      | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Features                                                              | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  /Users/scottdantuono/vet_demo/pabot_results/Features.Customers/rerun.xml

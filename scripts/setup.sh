@@ -9,6 +9,8 @@ pip install robotframework
 pip install selenium
 #install library
 pip install robotframework-selenium2library 
+# install pabot
+sudo pip install -U robotframework-pabot
 #get webdrivers
 cp chromedriver /usr/local/bin
 
